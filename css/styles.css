@@ -1,9 +1,22 @@
 body {
-    background-color: #eaf6f6;
-    /* background-image: linear-gradient( */
-        /* to right, */
-        /* rgb(0 0 0 / .8), rgb(0 0 0 / 0) */
-    /* ), url("images\background.png"); */
+    margin: 0;
+
+}
+.top-container {
+    background-color: #B9E0FF;
+}
+.middle-container {
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+}
+.bottom-container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+h1 {
+    margin: 0;
 }
 hr {
     border-style: none;
@@ -11,10 +24,4 @@ hr {
     border-width: 5px;
     width: 5%;
     border-color: rgb(205, 205, 205);
-}
-h1 {
-    color: #66bfbf
-}
-h3 {
-    color: #66bfbf
 }
