@@ -44,3 +44,6 @@ hr {
     left: 300px;
     bottom: 300px;
 }
+.profile-picture {
+    border-radius: 50%;
+}
