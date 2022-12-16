@@ -1,7 +1,7 @@
 body {
-		margin: 0;
-		text-align: center;
-		font-family: 'Merriweather', serif;
+	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather', serif;
 }
 .top-container {
 		background-color: #B9E0FF;
@@ -22,6 +22,7 @@ h2 {
 		font-size: 2.5rem;
 		color: #66BFBF;
 		font-weight: normal;
+		padding: 35px;
 }
 h3 {
 		font-family: 'Montserrat', sans-serif;
@@ -31,11 +32,11 @@ a {
 	color: #11999E;
 }
 hr {
-		border-style: none;
-		border-top-style: dotted;
-		border-width: 5px;
-		width: 5%;
-		border-color: #EAF6F6;
+	border-style: none;
+	border-top-style: dotted;
+	border-width: 8px;
+	width: 5%;
+	border-color: #EAF6F6;
 }
 .bottom-cloud {
 		position: absolute;
@@ -95,14 +96,23 @@ hr {
 	text-decoration: none;
 }
 .middle-container {
-	margin-bottom: 10%;
+	padding-bottom: 80px;
+}
+.contact-description {
+	padding: 40px;
 }
 .footer-link {
 	color: #11999E;
+	display: inline-block;
+	padding: 40px 20px 20px;
+	font-size: smaller;
 }
 .copyright {
 	color: #EAF6F6;
+	padding-top: 5px;
+	font-size: smaller;
 }
 .bottom-container {
 	background-color: #66bfbf;
+	height: 150px;
 }
